@@ -1,0 +1,29 @@
+<header class="top-header clearfix">
+    <div class="logo" data-ng-class="bg-white">
+        <a href="#/">
+            <span class="logo-icon fa fa-briefcase"></span>
+            <span class="logo-text">{{main.brand}}</span>
+        </a>
+    </div>
+    <div class="top-nav">
+        <ul class="nav-left pull-left list-unstyled" style="margin-top: 25px; margin-left: 25px">
+            <li>
+                <button type="button" class="btn btn-w-md btn-success">BROWSE TASK</button>
+            </li>
+            <li style="margin-left: 10px;">
+                <button type="button" class="btn btn-w-md btn-danger">POST TASK</button>
+            </li>
+        </ul>
+        <ul class="nav-right pull-right list-unstyled" style="margin-top: 30px;">
+            <li>
+                <button type="button" class="btn btn-w-sm btn-default"
+                        ng-click="goTo('#/pages/signin')">SIGN IN</button>
+            </li>
+            <li style="margin-left: 10px;">
+                <button type="button" class="btn btn-w-sm btn-black"
+                        ng-click="goTo('#/pages/signup')">SIGN UP</button>
+            </li>
+
+        </ul>
+    </div>
+</header>

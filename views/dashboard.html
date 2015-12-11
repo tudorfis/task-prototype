@@ -1,0 +1,67 @@
+<div class="page page-dashboard">
+    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h2 style="text-align: center;">BROWSE TASK</h2>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-xs-3">
+                <label style="font-size: 14px;">CATEGORY</label>
+                <span class="ui-select">
+                    <select>
+                        <option>- all category -</option>
+                        <option>Cars</option>
+                        <option>Real Estate</option>
+                        <option>Gamming</option>
+                        <option>Internet</option>
+                    </select>
+                </span>
+            </div>
+            <div class="col-xs-3">
+                <label style="font-size: 14px;">
+                    <i class="fa fa-dollar"></i> PRICE
+                </label>
+                <input type="text"
+                       value=""
+                       ui-range-slider
+                       data-slider-min="0"
+                       data-slider-max="100"
+                       data-slider-step="10"
+                       data-slider-orientation="horizontal"
+                       data-slider-value="[20, 80]"
+                       data-slider-selection="before"
+                       data-slider-tooltip="show"
+                       data-slider-handle="round">
+            </div>
+            <div class="col-xs-3">
+                <label style="font-size: 14px;">
+                    Location <i class="fa fa-map-marker"></i>
+                </label>
+                <span class="ui-select">
+                    <select>
+                        <option>- all location -</option>
+                        <option>New York</option>
+                        <option>L.A.</option>
+                        <option>Chicago</option>
+                    </select>
+                </span>
+            </div>
+            <div class="col-xs-3">
+                <label style="font-size: 14px;">
+                    <i class="fa fa-map"></i> LOCATION RANGE
+                </label>
+                <input type="text"
+                       value=""
+                       ui-range-slider
+                       data-slider-min="0"
+                       data-slider-max="100"
+                       data-slider-step="10"
+                       data-slider-orientation="horizontal"
+                       data-slider-value="[20, 80]"
+                       data-slider-selection="before"
+                       data-slider-tooltip="show"
+                       data-slider-handle="round">
+            </div>
+        </div>
+    </div>
+</div>
