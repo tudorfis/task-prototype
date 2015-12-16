@@ -1,5 +1,5 @@
 angular.module('mobileApp.controllers', [])
-  .controller('TasksCtrl', function($scope, $ionicModal) {
+  .controller('TasksCtrl', function($scope, $ionicModal, $ionicSideMenuDelegate) {
 
     $scope.tasks = [{
         title: 'Car for sale - Bmw X5 - 2003',
@@ -43,6 +43,10 @@ angular.module('mobileApp.controllers', [])
       scope: $scope,
       animation: 'slide-in-up'
     });
+
+    $scope.toggleMenu = function() {
+      $ionicSideMenuDelegate.toggleLeft();
+    };
 
     $scope.createTask = function(task) {
       $scope.tasks.push({
