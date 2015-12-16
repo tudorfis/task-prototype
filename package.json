@@ -1,5 +1,5 @@
 {
-  "name": "actors-tom",
+  "name": "task_prototype",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,8 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.1",
+    "cordova": "^5.4.1",
     "crypto": "0.0.3",
     "express": "^4.13.3",
+    "ionic": "^1.7.12",
     "mysql": "^2.9.0"
   }
 }
